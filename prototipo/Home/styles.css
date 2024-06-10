@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: FreeMono, monospace;
+}
+
+header{
+    padding: 10px;
+    height: 100px;
+    width: cover;
+    background-color: #00CED1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#loginButton{
+    height: 50px;
+    width: 100px;
+    border-radius: 20%;
+    background-color: #D3D3D3;
+    transition: 0.5s;
+
+}
+#loginButton:hover{
+    background-color: white;
+    cursor: pointer;
+}
+
+#logo{
+    height: 100px;
+    width: auto;
+    
+}
+
